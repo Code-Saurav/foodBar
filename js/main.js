@@ -8,6 +8,8 @@ window.onscroll = function() {
     nav.classList.remove("scroll-on")
   }
 }
+
+
 // navhide
 
 let navBar = document.querySelectorAll('.nav-link');
@@ -18,6 +20,8 @@ navBar.forEach(function(a){
     navCollapse.classList.remove("show"); //Bootstrap class show
   })
 })
+
+
 //COutner Design
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -29,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     step = Math.abs(Math.floor(duration/range)),
     timer = setInterval(() => {
       current += increment;
-      obj.textContent = current + "+"; // Display Text on the Screen
+      obj.textContent = current;
       if(current == end){
         clearInterval(timer);
       }

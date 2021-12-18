@@ -35,6 +35,13 @@
 
 /* Carousel Design*/
 
+
+.testimonial-section .carousel-item{
+  padding:0;
+}
+
+
+
 }
 
 @media(max-width: 767px){
@@ -56,10 +63,18 @@
     padding: 3rem 0;
     
   }
+
+  .testimonial-section .carousel-item{
+    padding:11rem 3.125rem;
+  }
 }
 
 
 
-@media(max-width: 330 px){
+@media(max-width: 330px){
+
+  .testimonial-section .carousel-item{
+    padding: 13rem 3.124rem;
+  }
 
 }
