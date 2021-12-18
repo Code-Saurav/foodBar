@@ -423,3 +423,45 @@ p{
   opacity: 1;
 }
 
+/* FAQ Disign */
+
+.faq h4 span{
+  color:var(--primary-color);
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}
+
+
+.book-food{
+  width: 100%;
+  background:url('../images/img/banner/mid.jpg') no-repeat center;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem;
+}
+
+
+/* Form Control */
+.newsletter{
+  width:80%;
+  margin:0 auto;
+}
+
+.newsletter .form-control{
+  height: 3.225rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  width:100%;
+  background:transparent;
+  border:0.1875rem solid var(--text-gray);
+  color:var(--black-color);
+  font-weight: 700;
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+  outline:none;
+  box-shadow : none;
+  border: var(--primary-color);
+}
