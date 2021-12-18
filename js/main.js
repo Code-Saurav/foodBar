@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     step = Math.abs(Math.floor(duration/range)),
     timer = setInterval(() => {
       current += increment;
-      obj.textContent = current;
+      obj.textContent = current + "+"; // Display Text on the Screen
       if(current == end){
         clearInterval(timer);
       }
