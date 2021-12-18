@@ -444,7 +444,7 @@ p{
 
 /* Form Control */
 .newsletter{
-  width:80%;
+  width:55%;
   margin:0 auto;
 }
 
@@ -461,7 +461,7 @@ p{
 
 .newsletter .form-control:hover,
 .newsletter .form-control:focus{
-  outline:none;
-  box-shadow : none;
-  border: var(--primary-color);
+  outline: none;
+  box-shadow:none;
+  border-color:var(--primary-color);
 }
