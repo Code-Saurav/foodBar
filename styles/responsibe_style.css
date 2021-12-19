@@ -86,7 +86,18 @@
   .footer a i{
     padding: 0 0.7rem;
   }
+
+  /*Testimonial*/
+
+  .testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 20rem 9.125rem;
+    background-color: var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+  }
 }
+
 
 
 

@@ -278,7 +278,7 @@ p{
   width: 100%;
   background: url('../images/bg/bg-1.jpg') no-repeat center;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.9 ;
   padding: 16.875rem 0 9.375rem;
 
 }
